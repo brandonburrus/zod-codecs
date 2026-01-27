@@ -1,0 +1,55 @@
+{
+  "name": "zod-codecs",
+  "version": "0.1.0",
+  "description": "Library of useful pre-build Codecs for Zod.",
+  "author": "Brandon Burrus",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/brandonburrus/zod-codecs#readme",
+  "keywords": [
+    "zod",
+    "codecs",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonburrus/zod-codecs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonburrus/zod-codecs/issues"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "zod": ">=4.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "rollup": "^4.56.0",
+    "rollup-plugin-dts": "^6.3.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18",
+    "zod": "^4.3.6"
+  }
+}
