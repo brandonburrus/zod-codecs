@@ -1,0 +1,15 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/index.ts"],
+  "out": "./docs",
+  "name": "zod-codecs",
+  "readme": "./README.md",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "githubPages": true,
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true
+  }
+}
