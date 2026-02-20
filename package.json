@@ -1,6 +1,6 @@
 {
   "name": "zod-codecs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Library of useful pre-build Codecs for Zod.",
   "author": "Brandon Burrus",
   "license": "MIT",
