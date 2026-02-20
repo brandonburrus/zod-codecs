@@ -221,13 +221,6 @@ export const myCodec = z.codec(
 )
 ```
 
-## Key Dependencies
-
-- **zod**: 4.3.6 (peer dependency, must be installed by consumer)
-- **typescript**: 5.9.3
-- **vitest**: 4.0.18
-- **rollup**: 4.56.0
-
 ## Notes for Agents
 
 1. **Always run type checking** before committing: `npm run typecheck`
